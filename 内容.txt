@@ -1,0 +1,88 @@
+%文件夹函数功能简介
+% 
+%
+% 离散信号和系统
+%       conv_m    - 改进的线性卷积子程序     
+%       conv_tp   - 用Toeplitz矩阵计算的线性卷积
+%       evenodd   - 将实信号分解为偶和奇两部分
+%       impseq    - 产生脉冲序列 
+%       sigadd    - 信号相加运算
+%       sigfold   - 信号折叠运算
+%       sigmult   - 信号乘法运算
+%       sigshift  - 信号时移运算
+%       stepseq   - 产生阶跃序列
+
+% 离散时间付利叶变换(第 z变换)
+%       pfe2rfz        - 在z域由部分分式展开为有理函数
+%       rf2pfez        - 在z域由有理函数展开为部分分式
+
+% 离散付利叶变换
+%       circevod      - 实信号分解为循环偶分量和循环奇分量
+%       circonvt        - 时域中的循环卷积
+%       cirshftt        - 时域中的循环移位
+%       dfs             - 计算离散付利叶系数
+%       dft             - 计算离散付利叶变换
+%       hsolpsav        - 采用FFT 高速分段卷积的重叠保留法
+%       idfs            - 计算逆离散付利叶级数
+%       idft            - 计算逆离散付利叶变换
+%       mod             - 计算 m = n mod N 
+%       ovrlpsav        - 分段卷积的重叠保留法
+
+% 数字滤波器结构
+%       cas2dir         - 级联到直接的形式转换
+%       casfiltr        - IIR 和 FIR 滤波器的级联实现
+%       cplxcomp        - 比较两个复数对
+%       dir2cas         - 直接到级联的型式转换
+%       dir2fs          - 直接形式到频率采样型的转换
+%       dir2ladr        - IIR 直接形式极__零点到格型/梯形的转换
+%       dir2latc        - FIR 直接形式到全零点格型形式的转换
+%       dir2par         - 直接到并联形式的转换
+%       dir2paro        - 直接到并联形式的转换
+%       ladr2dir        - 格型/梯形形式到IIR 直接形式的转换
+%       ladrfilt        - 格型/梯形形式的IIR 滤波器实现
+%       latc2dir        - 全零点格型形式到FIR 直接形式的转换
+%       latcfilt        - FIR 滤波器的格型形式的实现
+%       par2dir         - 并联形式到直接形式的转换
+%       parfiltr        - IIR 滤波器的并联形式的实现
+
+% FIR 滤波器设计
+%	ampl_res	-由FIR滤波器脉冲响应求其幅频特性
+%       blackman        - 布莱克曼窗函数
+%       freqz_m         - 改进型的freqz 子程序
+%       Hr_Type1        - 计算1型FIR低通滤波器
+%       Hr_Type2        - 计算2型FIR低通滤波器
+%       Hr_Type3        - 计算3型FIR低通滤波器
+%       Hr_Type4        - 计算4型FIR低通滤波器
+%       ideal_lp        - 理想低通滤波器脉冲响应计算 
+
+% IIR 滤波器设计
+%       afd_butt        - 模拟低通巴特沃思滤波器设计
+%       afd_chb1        - 模拟低通切比雪夫Ⅰ型滤波器设计
+%       afd_chb2        - 模拟低通切比雪夫Ⅱ型滤波器设计
+%       afd_elip        - 模拟椭圆低通滤波器设计
+%       cheb1hpf    - 用切比雪夫Ⅰ型原型作 IIR 高通滤波器设计
+%       freqs_m         - 改进型的freqs 子程序
+%       imp_invr       - 由模拟到数字滤波器的脉冲响应不变变换
+%       sdir2cas        - s平面的直接形式到级联形式的变换
+%       u_buttap       - 未归一化的巴特沃思模拟低通滤波器原型
+%       u_chb1ap   - 未归一化的切比雪夫Ⅰ型模拟低通滤波器原型
+%       u_chb2ap   - 未归一化的切比雪夫Ⅱ型模拟低通滤波器原型
+%       u_elipap        - 未归一化的椭圆模拟低通滤波器原型
+%       zmapping        - z域中的频带变换
+
+% 自适应滤波
+%       lms             - 系数调整的LMS 算法
+
+% 数字通信
+%       mulaw_c          -μ规则压缩器
+%       mulaw_e         - μ规则扩张器
+%       quantize        - 将信号量化为b 位
+
+% 杂项
+%	contents	- 内容文件（你正在读的）
+%       db2delta        - 由相对的 dB 数转换为绝对的 delta 数.
+%       delta2db        - 由绝对的 delta 数转换为相对的 dB 数
+%	pzplotz	   - 按正方坐标画出z平面上的单位圆及零极点分布图
+%	sinc		- sinc(x)=sin(pi*x)/(pi*x)
+
+
